@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    line-height: 1.5;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    border: 1px solid #3d3d3d;
+    background-color: #3c3c3c;
+    cursor: pointer;
+    color: #e2e2e2;
+}
+
+.btn:after {
+    content: ' \f061';
+}
+
+.cta {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    border-radius: 15px;
+    padding: 5px 10px;
+}

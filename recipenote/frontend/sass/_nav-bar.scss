@@ -1,0 +1,41 @@
+.nav-bar {
+    height: 100vh;
+}
+
+.nav-list {
+    background-color: #2A2A2A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__items {
+        padding: 15px;
+    }
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.hero {
+    height: 90%;
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)),*/ url("/images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-text {
+        text-align: center;
+        color: #E2E2E2;
+
+        h1 {
+            max-width: 900px;
+            font-weight: 700;
+            font-size: 2.25rem;
+            padding: 15px;
+        }
+    }
+}
