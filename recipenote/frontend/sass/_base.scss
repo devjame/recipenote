@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: roboto, sans-serif;
     line-height: 1.2;
 }
 
@@ -21,18 +22,29 @@ li {
     list-style: none;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .btn {
     border: none;
     background-color: #2a2a2a;
-    border-radius: 15px;
 
     cursor: pointer;
     color: #e2e2e2;
 
+    display: inline-block;
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
     padding: .365em 1em;
+}
+
+.btn:hover {
+    opacity: .7;
+    transition: .3s;
+    color: #fff;
 }
 
 /* .btn:after {
@@ -43,9 +55,8 @@ li {
 } */
 
 .cta {
-    /*box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
     border-radius: 15px;
-    padding: 5px 10px;*/
 }
 
 .wrapper {
