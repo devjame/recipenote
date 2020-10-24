@@ -13,7 +13,7 @@ header {
 
 }
 a {
-    color: #fff;
+    color: #2a2a2a;;
     text-decoration: none;
     font-size: 16px;
 }
@@ -67,6 +67,14 @@ img {
     padding: 0 4%;
 }
 
+.logo:hover {
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    background-color: #2a2a2a;
+    color: #e2e2e2;
+    transition: .3s;
+}
 
 .bg-color {
    background-color: #4CAF50;
@@ -74,10 +82,12 @@ img {
 
 hr {
     width: 150px;
+    border-top: 1px solid #bbb;
+}
+
+.centered {
     margin-left: auto;
     margin-right: auto;
-    height: 1px;
-    border-color: #c4c4c4;
 }
 
 .grid {
