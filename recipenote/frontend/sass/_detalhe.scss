@@ -1,4 +1,49 @@
-.recipe{
-    &-image {
+.recipe_content {
+    padding: 40px 0;
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        max-width: 656px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+.recipe-info {
+    max-width: 558px;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-image {
+    width: 657px;
+}
+
+.content_body {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+}
+
+.ingrediente,
+.instrucao {
+    padding: 15px;
+    border: 1px solid #ebebeb
+}
+
+@media screen and (min-width: 600px){
+    .content_body {
+        display: flex;
+    }
+
+    .instrucao {
+        margin-left: 15px;
     }
 }

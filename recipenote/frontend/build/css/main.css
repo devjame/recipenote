@@ -30,6 +30,11 @@
   margin-bottom: 1.5em;
 }
 
+@media screen and (min-width: 600px) {
+  .hero-text {
+    text-align: center;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -115,6 +120,11 @@ hr {
   margin-right: auto;
 }
 
+.vertical-spacing {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -184,49 +194,59 @@ hr {
 }
 
 .footer-content {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
+  background-color: #2A2A2A;
+  margin-top: 15px;
 }
-.footer-content h5 {
+
+.copy {
+  padding: 15px 0;
+  text-align: center;
+  color: #e2e2e2;
+}
+
+.recipe_content {
+  padding: 40px 0;
+}
+.recipe_content h2 {
+  margin-bottom: 20px;
+}
+.recipe_content p {
+  max-width: 656px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
-.footer-content .copy {
-  flex: 100%;
-  margin: 15px 0;
-  text-align: center;
+
+.recipe-info {
+  max-width: 558px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer-logo {
-  width: 45%;
-}
-.footer-logo p {
-  width: 270px;
-  margin-top: 10px;
-  padding: 5px 0;
+.recipe-image {
+  width: 657px;
 }
 
-.footer-resources h5 {
-  margin-top: 30px;
+.content_body h3 {
+  margin-bottom: 20px;
 }
-.footer-resources ul {
-  margin-top: 10px;
+.content_body li {
+  padding: 10px 0;
 }
-.footer-resources ul li {
-  padding: 5px 0;
+
+.ingrediente,
+.instrucao {
+  padding: 15px;
+  border: 1px solid #ebebeb;
 }
 
 @media screen and (min-width: 600px) {
-  .footer-content {
-    flex-flow: row wrap;
-    justify-content: spece-around;
+  .content_body {
+    display: flex;
   }
 
-  .footer-resources {
-    margin-left: auto;
-  }
-  .footer-resources h5 {
-    margin-top: 0;
+  .instrucao {
+    margin-left: 15px;
   }
 }
 
